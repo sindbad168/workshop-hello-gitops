@@ -103,7 +103,7 @@ jobs:
     needs: deploydev
 
     steps:
-    - name: Check out code
+    - name: Wait review
       uses: Automattic/action-required-review@v2
       with:
         requirements: |
