@@ -16,7 +16,6 @@ func main() {
 func startServer(handler func(http.ResponseWriter, *http.Request)){
 	http.HandleFunc("/", handler)
 	log.Printf("starting server...")
-
 	http.ListenAndServe(fmt.Sprintf(":%d", PORT), nil)
 }
 
