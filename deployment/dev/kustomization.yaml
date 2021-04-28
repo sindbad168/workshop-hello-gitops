@@ -9,4 +9,4 @@ namespace: dev
 images:
 - name: hello-gitops
   newName: dcimg1339/hello-gitops
-  newTag: 9f5af3dd3c3cd2e836ada72f43a033b3a3ebf54a
+  newTag: c338b2ba7e876695b55455b4988cfafc2fd549d7
