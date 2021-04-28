@@ -104,6 +104,13 @@ jobs:
 
     steps:
     - name: Check out code
+      uses: Automattic/action-required-review@v2
+      with:
+        requirements: |
+          - paths: unmatched
+            teams:
+              - maintenance
+    - name: Check out code
       uses: actions/checkout@v2
 
     - name: Setup Kustomize
