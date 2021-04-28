@@ -15,11 +15,11 @@ spec:
         app: gitops-webapp
     spec:
       containers:
-      - image: dcimg1339/gitops-webapp-dcimg1339:22e42c30
-        name: gitops-webapp
+      - image: dcimg1339/hello-gitops:62aec279b743a5bd89df15f88bfe5169952354db
+        name: hello-gitops
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
           name: http
         env:
         - name: APP_PORT
