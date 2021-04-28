@@ -103,6 +103,7 @@ jobs:
     needs: deploydev
     environment:
       name: Production
+      url: https://sindbad168.github.io/github-actions-demo/
 
     steps:
     - name: Check out code
