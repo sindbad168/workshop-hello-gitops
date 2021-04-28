@@ -9,4 +9,4 @@ namespace: prod
 images:
 - name: hello-gitops
   newName: dcimg1339/hello-gitops
-  newTag: 5c70b6fea3626f1765c030bece01c52b233d4d54
+  newTag: 3d88762d5b34b48dccc810970af53c045c64e3e0
