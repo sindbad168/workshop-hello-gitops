@@ -66,7 +66,7 @@ jobs:
   deploydev:
     name: Deploydev
     runs-on: ubuntu-latest
-    needs: build
+    needs: deploy
 
     steps:
     - name: Check out code
@@ -99,7 +99,7 @@ jobs:
   deployprod:
     name: Deployprod
     runs-on: ubuntu-latest
-    needs: build
+    needs: deploydev
 
     steps:
     - name: Check out code
